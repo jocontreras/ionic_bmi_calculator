@@ -48,6 +48,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
+  .state('tab.bmi1', {
+    url: '/bmi1',
+    views: {
+      'tab-bmi1': {
+        templateUrl: 'templates/calculator/calculator.html',
+        controller: 'BmiController'
+      }
+    }
+  })
+
+
+
+
+
+
   .state('tab.about', {
       url: '/about',
       views: {
